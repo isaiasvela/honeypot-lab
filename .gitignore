@@ -3,3 +3,5 @@
 .idea/
 
 # Add your own files to ignore below this line
+
+.venv/
