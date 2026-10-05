@@ -7,3 +7,5 @@
 .venv/
 honeypot/keys/
 honeypot/data/
+*.swp
+*.swo
