@@ -13,6 +13,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 HOST_KEY_PATH = BASE_DIR / "keys" / "host_key"
 
 def save_event(event):
+
+
+
     with open(BASE_DIR / "data/events.jsonl", "a") as file:
         file.write(event+'\n')
 
@@ -36,8 +39,7 @@ class HoneypotServer(paramiko.ServerInterface):
 
         save_event(json_event)
 
-        print(json_event, flush=True)
-        
+        print(json_event, flush=True) 
         
         return paramiko.AUTH_FAILED
 

@@ -6,3 +6,4 @@
 
 .venv/
 honeypot/keys/
+honeypot/data/
