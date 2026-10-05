@@ -89,12 +89,12 @@ This is the **target architecture**. Components will be introduced progressively
 
 ## Phase 0 — Design
 
-* [ ] Define project architecture
-* [ ] Define threat model
-* [ ] Define security boundaries
-* [ ] Design initial data model
-* [ ] Define event format
-* [ ] Define repository structure
+* [x] Define project architecture
+* [x] Define threat model
+* [x] Define security boundaries
+* [x] Design initial data model
+* [x] Define event format
+* [x] Define repository structure
 
 ---
 
@@ -104,13 +104,13 @@ Build the first functional SSH honeypot.
 
 ### Goals
 
-* [ ] Implement SSH honeypot
-* [ ] Capture connection attempts
-* [ ] Capture source IP
-* [ ] Capture timestamp
-* [ ] Capture username
-* [ ] Capture password attempts
-* [ ] Capture session information
+* [x] Implement SSH honeypot
+* [x] Capture connection attempts
+* [x] Capture source IP
+* [x] Capture timestamp
+* [x] Capture username
+* [x] Capture password attempts
+* [x] Capture session information
 * [ ] Capture commands when possible
 * [ ] Implement structured logging
 * [ ] Create Bash setup scripts
